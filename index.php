@@ -9,6 +9,7 @@
 	<div class="container">
 	<img src="img/default-profile.jpg"/>
 		<form method="POST" action="login.php">
+			
 			<div class="form-input">
 				<input type="text" name="username" placeholder="Enter the User Name"/>	
 			</div>
@@ -16,6 +17,7 @@
 				<input type="password" name="password" placeholder="password"/>
 			</div>
 			<input type="submit" type="submit" value="LOGIN" class="btn-login"/>
+			<div>pull request<div>
 		</form>
 	</div>
 </body>
