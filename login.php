@@ -12,6 +12,7 @@ session_start();
     
     if(mysqli_num_rows($result)==1){
         $_SESSION["uname"]=$uname;
+        $_SESSION["pwd"]=$password;
         echo " You Have Successfully Logged in";
         exit();
     }
